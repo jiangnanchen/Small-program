@@ -2,12 +2,21 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "image/jiangnan"
+    "pages/join/join"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarTitleText": "唐诗仙人李太白",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pagePath",
+      "text": "text",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }]
   }
+
 }
