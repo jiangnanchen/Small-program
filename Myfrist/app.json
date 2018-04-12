@@ -6,16 +6,23 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarBackgroundColor": "#2e5e86",
     "navigationBarTitleText": "唐诗仙人李太白",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "selectedColor": "#2e5e86",
     "list": [{
-      "pagePath": "pagePath",
-      "text": "text",
-      "iconPath": "iconPath",
-      "selectedIconPath": "selectedIconPath"
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/主页.jpg",
+      "selectedIconPath": "images/主页.jpg"
+    },
+    {
+         "pagePath": "pages/join/join",
+          "text": "加入",
+          "iconPath": "images/主页.jpg",
+          "selectedIconPath": "images/主页.jpg"
     }]
   }
 
