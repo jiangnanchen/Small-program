@@ -51,4 +51,10 @@ swiper image{
   width: 210rpx;
   height: 52rpx;
   margin-left: 20rpx;
+  line-height: 1;
+}
+.btn-ask image{
+  margin-left: -30rpx;
+  width: 214rpx;
+  height: 100%;
 }

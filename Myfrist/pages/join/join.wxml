@@ -1,2 +1,30 @@
 <!--pages/join/join.wxml-->
-<text>pages/join/join.wxml</text>
+<image class='banner' src='/images/aomeng.png'></image>
+
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>已被绑定的小程序客服人员可扫码登录微信公众平台网页版客服工具，并选择对应的小程序帐号，登录后即可看到与小程序对话的用户，可选择接入对话。</text>
+</view>
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>已被绑定的小程序客服人员可扫码登录微信公众平台网页版客服工具，并选择对应的小程序帐号，登录后即可看到与小程序对话的用户，可选择接入对话。</text>
+</view>
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>已被绑定的小程序客服人员可扫码登录微信公众平台网页版客服工具，并选择对应的小程序帐号，登录后即可看到与小程序对话的用户，可选择接入对话。</text>
+</view>
+<view class='block'>
+  <view class='block-title'>联系我们</view>
+  <text class='block-desc1'>电话：13522779013(陈浩南)</text>
+  <text class='block-desc1'>微信：wx514418695</text>
+  <text class='block-desc1'>QQ：514418695</text>
+  <text class='block-desc1'>地址：XXXXXXXXX</text>
+  <image class='block-banner1' src='/images/xiaozi.jpg'></image>
+  <text class='block-desc2'>扫上面二维码，添加我微信</text>
+  
+</view>
+
+<view class='footer'>
+  <button bindtap='tell' class='btn-ask'>微信咨询</button>
+  <button bindtap='tell' class='btn-ask1'>电话咨询</button>
+</view>

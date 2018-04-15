@@ -14,6 +14,8 @@ Page({
     autoplay: false,
     interval: 5000,
     duration: 1000,
+    // proList: null,
+    
     proList:[
       {
         logo: 'https://github.com/jiangnanchen/tata/blob/master/images/14.png?raw=true',
@@ -43,10 +45,31 @@ Page({
         title: '早发白帝城 --李白',
         desc: '朝辞白帝彩云间，千里江陵一日还。\n两岸猿声啼不住，轻舟已过万重山。',
       },
-
-    ],
+    ]
   },
   onLoad: function () {
-  
-  }
+    this.setData({
+      test:'01',
+    })
+    this.getProList();
+  },
+  toDetail:function(e){
+    console.log(e);
+    var index = e.currentTarget.dataset.index;
+    console.log(index);
+    var proList=this.data.proList;
+    var title = proList[index].title;
+    wx.navigateTo({
+      url: '/pages/detail/detail?title='+title,
+    })
+  },
+  // getProList:function(){
+  //   wx.request({
+  //     url: 'http://www.xzylogic.xyz/wx_Json_Img/bdy.json',
+  //     method:'GET',
+  //     success:function(res){
+  //       console.log(res);
+  //     }
+  //   })
+  // }
 })

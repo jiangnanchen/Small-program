@@ -9,14 +9,15 @@
 </swiper>
 
 <view class='items-list'>
-  <view class='pro-item' wx:for="{{proList}}">
+  <view class='pro-item' wx:for="{{proList}}" bindtap='toDetail' data-index='{{index}}'>
     <image class='pro-logo' src='{{item.logo}}'></image>
     <view class='pro-body'>
       <view class='pro-title'>{{item.title}}</view>
       <text class='pro-desc'>{{item.desc}}</text>
       <view class='pro-footer'>
         <image class='btn-detail' src='/images/001.png'></image>
-        <image class='btn-ask' src='/images/002.png'></image>
+        <button open-type="contact" class='btn-ask'><image src='/images/002.png' /></button>
+        
       </view>
     </view>
   </view>
