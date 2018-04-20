@@ -66,7 +66,7 @@ Page({
   getProList:function(){
     var self = this;
     wx.request({
-      url: 'http://127.0.0.1:10011/',
+      url: 'http://json.chenjiangnan.top:10011/',
       method:'GET',
       success:function(res){
         console.log(res);
