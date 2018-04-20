@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/join/join"
+    "pages/join/join",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,18 +12,18 @@
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "selectedColor": "#2e5e86",
+    "selectedColor": "cc9933",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页",
-      "iconPath": "images/主页.jpg",
-      "selectedIconPath": "images/主页.jpg"
+      "iconPath": "images/主页_meitu_1.jpg",
+      "selectedIconPath": "images/主页_meitu_2.jpg"
     },
     {
          "pagePath": "pages/join/join",
           "text": "加入",
-          "iconPath": "images/主页.jpg",
-          "selectedIconPath": "images/主页.jpg"
+          "iconPath": "images/加入_meitu_01.jpg",
+          "selectedIconPath": "images/加入_meitu_02.jpg"
     }]
   }
 
