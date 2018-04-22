@@ -5,14 +5,16 @@ const app = getApp()
 Page({
   data: {
     imgUrls: [
-      '/images/01.jpg',
-      '/images/02.jpg',
-      '/images/03.jpg',
-      '/images/04.jpg',
+      '/images/0001.jpg',
+      '/images/0002.jpg',
+      '/images/0003.jpg',
+      '/images/0004.jpg',
+      '/images/0005.jpg',
+      '/images/0006.jpg',
     ],
     indicatorDots: false,
-    autoplay: false,
-    interval: 5000,
+    autoplay: true,
+    interval: 2000,
     duration: 1000,
     // proList: null,
     

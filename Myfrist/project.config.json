@@ -43,6 +43,13 @@
 					"pathName": "pages/join/join",
 					"query": "",
 					"scene": "1025"
+				},
+				{
+					"id": -1,
+					"name": "此时此刻",
+					"pathName": "pages/detail/detail",
+					"query": "name=music",
+					"scene": "1025"
 				}
 			]
 		}

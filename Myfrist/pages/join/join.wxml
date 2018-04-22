@@ -1,9 +1,9 @@
 <!--pages/join/join.wxml-->
-<image class='banner' src='/images/aomeng.png'></image>
+<image class='banner' src='/images/0002.jpg'></image>
 
 <view class='block'>
-  <view class='block-title'>关于我们</view>
-  <text class='block-desc'>已被绑定的小程序客服人员可扫码登录微信公众平台网页版客服工具，并选择对应的小程序帐号，登录后即可看到与小程序对话的用户，可选择接入对话。</text>
+  <view class='block-title'>耳机介绍</view>
+  <text class='block-desc'>圈铁耳机，它是动圈单元和动铁单元组合到一起的产物。两种不同结构的单元组合起来，既可以拥有动铁耳塞声音密度大、解析力优秀和清晰的线条感，又能获得动圈耳塞先天拥有的出色低频表现，以及随之而来的优秀氛围感。可以说，圈铁耳塞是声音素质和乐感的最佳综合体，在高品质无损音乐逐渐普及的当下，更有利于广大喜欢听音乐者享受优质的回放效果，体验音韵之美。</text>
 </view>
 <view class='block'>
   <view class='block-title'>关于我们</view>

@@ -8,11 +8,15 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#2e5e86",
-    "navigationBarTitleText": "唐诗仙人李太白",
+    "navigationBarTitleText": "千耳旗舰耳机-天籁之音",
     "navigationBarTextStyle": "white"
   },
+
   "tabBar": {
-    "selectedColor": "cc9933",
+    "selectedColor": "red",
+    "color": "black",
+    "borderStyle": "black",
+    "backgroundColor": "#2e5e86",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页",
@@ -20,10 +24,10 @@
       "selectedIconPath": "images/主页_meitu_2.jpg"
     },
     {
-         "pagePath": "pages/join/join",
-          "text": "加入",
-          "iconPath": "images/加入_meitu_01.jpg",
-          "selectedIconPath": "images/加入_meitu_02.jpg"
+      "pagePath": "pages/join/join",
+      "text": "加入",
+      "iconPath": "images/加入_meitu_01.jpg",
+      "selectedIconPath": "images/加入_meitu_02.jpg"
     }]
   }
 
